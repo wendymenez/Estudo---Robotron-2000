@@ -1,6 +1,6 @@
 :root {
-    --main-cinza: #CCCCCC;
-    --main-branco: #FFFFFF;
+    --main-rosa: #d32a70cc;
+    --main-branco: #ffffff;
     --main-preto: #000000;
 }
 
@@ -55,13 +55,13 @@ main {
     line-height: 0.8;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    color: rgba(255,255,255,0.8)
+    color: rgba(211, 42, 112, 0.8)
 }
 
 .box {
     background: rgba(0,0,0,0.6);
     clip-path: polygon(calc(100% - 30px) 0, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 30px 100%, 0 calc(100% - 30px), 0 30px, 30px 0);
-    border-left: 5px solid var(--main-cinza);
+    border-left: 5px solid var(--main-rosa);
     height: 80%;
 }
 
@@ -119,16 +119,16 @@ main {
     height: 40px;
     line-height: 44px;
     border-radius: 50%;
-    color: var(--main-cinza);
+    color: var(--main-rosa);
     font-size: 4em;
     background: var(--main-preto);
     text-align: center;
-    border: 3px solid var(--main-cinza);
+    border: 3px solid var(--main-rosa);
     cursor: pointer;
 }
 
 .linha {
-    border-color: var(--main-cinza);
+    border-color: var(--main-rosa);
 }
 
 .producao {
@@ -165,7 +165,7 @@ main {
 
 .estatistica-titulo {
     font-size: 1.5em;
-    border-bottom: 1px solid var(--main-cinza);
+    border-bottom: 1px solid var(--main-rosa);
     flex-basis: 40%;
     text-transform: uppercase;
     order: 1
@@ -183,7 +183,7 @@ main {
     content: "";
     display: block;
     padding-bottom: 100%;
-    border: 1px solid var(--main-cinza);
+    border: 1px solid var(--main-rosa);
     border-radius: 50%;
 }
 
